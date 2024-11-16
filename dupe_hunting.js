@@ -136,7 +136,8 @@ function button_utility_script(inputArr, bindingClass, actionBindMode) {
     [
         "net.minecraft.client.gui.inventory.GuiInventory",
         "net.minecraft.client.gui.inventory.GuiContainerCreative",
-        "net.minecraft.client.gui.inventory.GuiBeacon"
+        "net.minecraft.client.gui.inventory.GuiBeacon",
+        "net.minecraft.client.gui.inventory.GuiChest"
     ].forEach(ui => {
         button_utility_script(dupeHuntButtons, ui, 0);
     });
