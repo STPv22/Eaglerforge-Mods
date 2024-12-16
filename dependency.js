@@ -1,7 +1,7 @@
 ModAPI.meta.title("ModAPI dependency plugin");
 ModAPI.meta.description('A little plugin that is not needed but could be usefull in the future.');
 ModAPI.dependecy ||= {};
-ModAPI.dependecy._registry ||= [];
+ModAPI.dependecy._registry = [];
 ModAPI.dependecy.register = function (modName, modObject) {
     var mod = {id: modName}
     if (typeof modObject === "object") {
